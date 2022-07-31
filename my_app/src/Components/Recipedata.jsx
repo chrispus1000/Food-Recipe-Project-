@@ -3,7 +3,7 @@ import { useParams } from "react-router-dom";
 const Recipedata=()=>{
     const [item,setItem]=useState();
     const {MealId}=useParams();
-    if(MealId!="")
+    if(MealId!=="")
     {
         fetch(`https:/www.themealdb.com/api/json/v1/1/lookup.php?i=${MealId}`)
         .then(res=>res.json())
