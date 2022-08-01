@@ -29,6 +29,7 @@ My app is designed for foodies who love to try out new dishes of different cultu
 
 # URL
 
+https://food-recipe-prj.herokuapp.com/
 
 
 # Prerequisites
